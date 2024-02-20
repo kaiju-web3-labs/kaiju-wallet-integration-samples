@@ -68,7 +68,10 @@ export class KaijuClient {
     email: string,
     idToken: string,
     transaction: any,
+    XRPLClient: any,
   ) => {
+    const autoFilledTransaction = await XRPLClient.autofill(transaction);
+
     const headers = KaijuClient.getHeaders();
     headers.append('token', idToken);
 
@@ -77,7 +80,7 @@ export class KaijuClient {
       blockchain: 'xrpl',
       transactionType: 'transaction',
       payload: {
-        transaction: transaction,
+        transaction: autoFilledTransaction,
         transactionHash: '',
       },
     });
