@@ -62,6 +62,7 @@ export class KaijuClient {
    * @param email  - Email used to log into the wallet
    * @param idToken - idToken obtained after logged in
    * @param transaction  - Transaction that need to be signed
+   * @param XRPLClient - XRPL Client
    * @returns Signed transaction from Kaiju SAAS Wallet API
    */
   static signTransaction = async (
