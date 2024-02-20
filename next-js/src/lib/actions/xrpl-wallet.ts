@@ -85,19 +85,18 @@ export const transferXRP = async (
     await XRPLClient.connect();
 
     // 2. Create a transaction
-    const transaction = {
+    const transaction = await XRPLClient.autofill({
       TransactionType: 'Payment',
       Account: fromAddress,
       Amount: XRPL.xrpToDrops(xrpAmount),
       Destination: receiverAddress,
-    };
+    });
 
     // 3. Sign the transaction
     const signedTransaction = await KaijuClient.signTransaction(
       email,
       idToken,
       transaction,
-      XRPLClient,
     );
 
     if (!signedTransaction)
