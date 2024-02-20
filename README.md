@@ -1,4 +1,4 @@
-# Kaiju SaaS Wallet Examples
+# Kaiju Wallet Integration Samples
 
 This repository contains the sample implementaions of the kaiju wallet with different frameworks
 
