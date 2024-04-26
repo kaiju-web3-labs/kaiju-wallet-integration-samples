@@ -2,20 +2,26 @@
 
 This is an example of integrating Kaiju Wallet into a  [Next.js](https://nextjs.org/) Framework.
 
-1. Install the dependencies<br><br>
-    run the following command in terminal at `next-js` folder
-    ```bash
-    yarn
-    # or
-    npm install
-    ```
+- Set up Discord Authentication in the Kaiju Developer Portal
 
-2. Start development server<br><br>
-    run the following command in terminal at `next-js` folder
-    ```bash
-    yarn dev
-    # or
-    npm run dev
-    ```
+    https://docs.google.com/document/d/1DUZ6OxMYoGMbXsp5PMogxmvguJatjcEpbk_lLqyWCo8/edit?usp=sharing
 
-3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Run the Project
+    
+    - Install the dependencies<br><br>
+        run the following command in terminal at `next-js` folder
+        ```bash
+        yarn
+        # or
+        npm install
+        ```
+    
+    - Start development server<br><br>
+        run the following command in terminal at `next-js` folder
+        ```bash
+        yarn dev
+        # or
+        npm run dev
+        ```
+    
+    - Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
