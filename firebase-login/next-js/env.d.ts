@@ -2,7 +2,7 @@ namespace NodeJS {
   interface ProcessEnv {
     IRON_SESSION_PWD: string;
     KAIJU_SAAS_WALLET_BASE_URL: string;
-    KAIJU_TWITTER_AUTH_PROVIDER_ID: string;
+    KAIJU_FIREBASE_AUTH_PROVIDER_ID: string;
     KAIJU_PROJECT_ACCESS_KEY: string;
     SESSION_COOKIE_NAME: string;
     XRPL_SERVER_URL: string;

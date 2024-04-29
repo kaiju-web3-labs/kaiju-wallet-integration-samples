@@ -13,7 +13,7 @@ export class KaijuClient {
     const headers = new Headers();
     headers.append(
       'authProviderId',
-      process.env.KAIJU_TWITTER_AUTH_PROVIDER_ID,
+      process.env.KAIJU_FIREBASE_AUTH_PROVIDER_ID,
     );
     headers.append('accessKey', process.env.KAIJU_PROJECT_ACCESS_KEY);
     headers.append('Content-Type', 'application/json');
