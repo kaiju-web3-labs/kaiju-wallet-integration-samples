@@ -2,7 +2,7 @@
 
 This is an example of integrating Kaiju Wallet into a  [Next.js](https://nextjs.org/) Framework.
 
-- Set up Twitter Authentication in the Kaiju Developer Portal
+- Set up Firebase Authentication in the Kaiju Developer Portal
 
     https://docs.google.com/document/d/1yLG-UCS63-CkRE5Zt6NESp71hKPJxxsmTUfmrNgaDPU/edit?usp=sharing
 
