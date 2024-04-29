@@ -12,7 +12,22 @@ export default function LoginPage() {
   const onLoginClick = async () => {
     setIsLoggingIn(true);
     const auth = getAuth(firebaseApp);
+
+    // X Login
     const provider = new TwitterAuthProvider();
+
+    // Google Login
+    // const provider = new GoogleAuthProvider();
+    // provider.addScope('email');
+
+    // Apple Login
+    // const provider = new OAuthProvider('apple.com');
+    // provider.addScope('email');
+    // provider.addScope('name');
+
+    // Github Login
+    // const provider = new GithubAuthProvider();
+
     provider.setCustomParameters({
       prompt: 'select_account',
     });
